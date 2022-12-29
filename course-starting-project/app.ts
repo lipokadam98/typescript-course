@@ -1,23 +1,5 @@
-let userInput: unknown;
-let userName: string;
+const userName = 'asdsads';
 
-
-userInput = 5;
-userInput = 'May';
-
-if(typeof userInput === 'string'){
-    userName = userInput;
+if(userName){
+    console.log(userName);
 }
-
-
-function generateError(message: string, code: number) : never{
-    throw {message: message, errorCode: code};
-}
-
-try{
-
-}catch(error){
-    
-}
-const result = generateError('An error occured',500);
-console.log(result);
